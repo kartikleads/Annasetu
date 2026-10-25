@@ -1,0 +1,22 @@
+{
+  "name": "annasetu",
+  "main": "./src/worker.js",
+  "compatibility_date": "2024-09-23",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application",
+    "binding": "ASSETS"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "ANNASETU_KV",
+      "id": "93571800f88c488c9b0c9de9303e5958"
+    }
+  ],
+  "vars": {
+    "SMTP_EMAIL": "annasetu0@gmail.com",
+    "SMTP_APP_PASSWORD": "afnb fgho kujj fsbo",
+    "SMTP_FROM_NAME": "AnnaSetu AI"
+  }
+}
